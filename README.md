@@ -54,7 +54,7 @@ public class MyClass {
     }
 
     public static void main(String[] args) {
-        MyClass obj = new MyClass(1, "John Doe");
+        MyClass obj = new MyClass(1, "Jiwon Shim");
         obj.displayInfo();
     }
 }
