@@ -1,7 +1,8 @@
 class PythonIntroduction:
     def __init__(self):
         self.title = "Python Programming Language"
-        self.description = ("Python is an interpreted, high-level and general-purpose programming language. "Python's design philosophy emphasizes code readability with its notable use of significant indentation.")
+        self.description = ("Python is an interpreted, high-level and general-purpose programming language. "
+                            "Python's design philosophy emphasizes code readability with its notable use of significant indentation.")
         self.features = [
             "Easy to learn and use",
             "Expressive language",
@@ -23,6 +24,7 @@ class PythonIntroduction:
             "Versatile and powerful",
             "Strong support for integration with other languages and tools"
         ]
+
     def introduce(self):
         print(f"Introduction to {self.title}")
         print(self.description)
@@ -34,6 +36,7 @@ class PythonIntroduction:
         print("Advantages of Python:")
         for advantage in self.advantages:
             print(f"- {advantage}")
+
 if __name__ == "__main__":
     intro = PythonIntroduction()
     intro.introduce()
