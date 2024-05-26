@@ -1,9 +1,9 @@
 class PythonIntroduction:
       def __init__(self):
-             self.title = "Python Programming Language"
-        self.description = ("Python is an interpreted, high-level and general-purpose programming language. "
+      self.title = "Python Programming Language"
+      self.description = ("Python is an interpreted, high-level and general-purpose programming language. "
                            "Python's design philosophy emphasizes code readability with its notable use of significant indentation.")
-        self.features = [
+      self.features = [
             "Easy to learn and use",
             "Expressive language",
             "Interpreted language",
@@ -16,7 +16,7 @@ class PythonIntroduction:
             "Integrated",
             "Embeddable"
         ]
-        self.advantages = [
+      self.advantages = [
             "Simple and easy to learn syntax",
             "Increased productivity",
             "Extensive libraries and frameworks",
