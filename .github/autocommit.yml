@@ -1,0 +1,19 @@
+name: Auto Commit
+
+on:
+  schedule:
+    - cron: "0 0 * * *"  # 매일 자정 실행
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout Repository
+        uses: actions/checkout@v2
+
+      - name: Make Empty Commit
+        run: |
+          git config user.name "Your Name"
+          git config user.email "your-email@example.com"
+          git commit --allow-empty -m "Daily auto-commit"
+          git push
